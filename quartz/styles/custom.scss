@@ -1,3 +1,12 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+// fix: "Explorer" 제목 글자 아래쪽(p 꼬리 등)이 잘리는 문제
+.explorer {
+  min-height: 1.6rem;
+}
+button.mobile-explorer h2,
+button.desktop-explorer h2 {
+  line-height: 1.5;
+}
